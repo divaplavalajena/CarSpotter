@@ -40,6 +40,23 @@ class TableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return List.count
     }
+    
+    
+    override func viewDidAppear(animated: Bool) {
+        
+        //fetchd data request and load it into tableview
+        let appDel: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        
+        //refer back and add in the context
+        let context: NSManagedObjectContext = appDel.managedObjectContext
+        let request = NSFetchRequest(entityName: "CarList")
+        
+        //get list and request fetch request and get tableview to reload itself
+        List = try! context.executeFetchRequest(request)
+        tableView.reloadData()
+        
+    }
+
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {

@@ -15,6 +15,11 @@
 		9C1366E91BE14CE5007211E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1366E71BE14CE5007211E8 /* LaunchScreen.storyboard */; };
 		9C1366F41BE14CE5007211E8 /* CarSpotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1366F31BE14CE5007211E8 /* CarSpotterTests.swift */; };
 		9C1366FF1BE14CE5007211E8 /* CarSpotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1366FE1BE14CE5007211E8 /* CarSpotterUITests.swift */; };
+		9C13670D1BE14D7D007211E8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13670C1BE14D7D007211E8 /* CoreData.framework */; };
+		9C13670F1BE1504A007211E8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C13670E1BE1504A007211E8 /* TableViewController.swift */; };
+		9C1367111BE1507C007211E8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1367101BE1507C007211E8 /* TableViewCell.swift */; };
+		9C1367131BE150CF007211E8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1367121BE150CF007211E8 /* AddViewController.swift */; };
+		9C1367151BE15C3E007211E8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1367141BE15C3E007211E8 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		9C1366FA1BE14CE5007211E8 /* CarSpotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSpotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1366FE1BE14CE5007211E8 /* CarSpotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSpotterUITests.swift; sourceTree = "<group>"; };
 		9C1367001BE14CE5007211E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C13670C1BE14D7D007211E8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9C13670E1BE1504A007211E8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9C1367101BE1507C007211E8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9C1367121BE150CF007211E8 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		9C1367141BE15C3E007211E8 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C13670D1BE14D7D007211E8 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +90,7 @@
 		9C1366CF1BE14CE5007211E8 = {
 			isa = PBXGroup;
 			children = (
+				9C13670C1BE14D7D007211E8 /* CoreData.framework */,
 				9C1366DA1BE14CE5007211E8 /* CarSpotter */,
 				9C1366F21BE14CE5007211E8 /* CarSpotterTests */,
 				9C1366FD1BE14CE5007211E8 /* CarSpotterUITests */,
@@ -100,7 +112,11 @@
 			isa = PBXGroup;
 			children = (
 				9C1366DB1BE14CE5007211E8 /* AppDelegate.swift */,
+				9C13670E1BE1504A007211E8 /* TableViewController.swift */,
+				9C1367101BE1507C007211E8 /* TableViewCell.swift */,
+				9C1367121BE150CF007211E8 /* AddViewController.swift */,
 				9C1366DD1BE14CE5007211E8 /* ViewController.swift */,
+				9C1367141BE15C3E007211E8 /* Model.swift */,
 				9C1366DF1BE14CE5007211E8 /* Main.storyboard */,
 				9C1366E51BE14CE5007211E8 /* Assets.xcassets */,
 				9C1366E71BE14CE5007211E8 /* LaunchScreen.storyboard */,
@@ -262,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1367151BE15C3E007211E8 /* Model.swift in Sources */,
+				9C1367111BE1507C007211E8 /* TableViewCell.swift in Sources */,
 				9C1366DE1BE14CE5007211E8 /* ViewController.swift in Sources */,
+				9C1367131BE150CF007211E8 /* AddViewController.swift in Sources */,
 				9C1366E41BE14CE5007211E8 /* CarSpotter.xcdatamodeld in Sources */,
 				9C1366DC1BE14CE5007211E8 /* AppDelegate.swift in Sources */,
+				9C13670F1BE1504A007211E8 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

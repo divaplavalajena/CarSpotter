@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9C1366DC1BE14CE5007211E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1366DB1BE14CE5007211E8 /* AppDelegate.swift */; };
-		9C1366DE1BE14CE5007211E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1366DD1BE14CE5007211E8 /* ViewController.swift */; };
 		9C1366E11BE14CE5007211E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1366DF1BE14CE5007211E8 /* Main.storyboard */; };
 		9C1366E41BE14CE5007211E8 /* CarSpotter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C1366E21BE14CE5007211E8 /* CarSpotter.xcdatamodeld */; };
 		9C1366E61BE14CE5007211E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1366E51BE14CE5007211E8 /* Assets.xcassets */; };
@@ -42,7 +41,6 @@
 /* Begin PBXFileReference section */
 		9C1366D81BE14CE5007211E8 /* CarSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1366DB1BE14CE5007211E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C1366DD1BE14CE5007211E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C1366E01BE14CE5007211E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C1366E31BE14CE5007211E8 /* CarSpotter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarSpotter.xcdatamodel; sourceTree = "<group>"; };
 		9C1366E51BE14CE5007211E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 				9C13670E1BE1504A007211E8 /* TableViewController.swift */,
 				9C1367101BE1507C007211E8 /* TableViewCell.swift */,
 				9C1367121BE150CF007211E8 /* AddViewController.swift */,
-				9C1366DD1BE14CE5007211E8 /* ViewController.swift */,
 				9C1367141BE15C3E007211E8 /* Model.swift */,
 				9C1366DF1BE14CE5007211E8 /* Main.storyboard */,
 				9C1366E51BE14CE5007211E8 /* Assets.xcassets */,
@@ -280,7 +277,6 @@
 			files = (
 				9C1367151BE15C3E007211E8 /* Model.swift in Sources */,
 				9C1367111BE1507C007211E8 /* TableViewCell.swift in Sources */,
-				9C1366DE1BE14CE5007211E8 /* ViewController.swift in Sources */,
 				9C1367131BE150CF007211E8 /* AddViewController.swift in Sources */,
 				9C1366E41BE14CE5007211E8 /* CarSpotter.xcdatamodeld in Sources */,
 				9C1366DC1BE14CE5007211E8 /* AppDelegate.swift in Sources */,
